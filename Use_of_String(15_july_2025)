@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMoPrJGUPaYCLEiZm/yVtPO",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Akshita0me/PYTHON/blob/main/Use_of_String(15_july_2025)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aBrSCKe1kHbJ",
+        "outputId": "9aefaf3d-9086-4436-8e41-e3019c913faa"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is a string in single quotes.\n",
+            "This is a string in double quotes.\n",
+            "It's a beautiful day!\n",
+            "He said, \"Hello!\" to everyone.\n",
+            "This is a string\n",
+            "written in triple single quotes.\n",
+            "It can go to the next line easily.\n",
+            "This is another string\n",
+            "written in triple double quotes.\n",
+            "Used for long texts or documentation.\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Single quote string\n",
+        "single_quote_string = 'This is a string in single quotes.'\n",
+        "print(single_quote_string)\n",
+        "\n",
+        "# Double quote string\n",
+        "double_quote_string = \"This is a string in double quotes.\"\n",
+        "print(double_quote_string)\n",
+        "\n",
+        "# Using single quotes inside double quotes\n",
+        "mix1 = \"It's a beautiful day!\"\n",
+        "print(mix1)\n",
+        "\n",
+        "# Using double quotes inside single quotes\n",
+        "mix2 = 'He said, \"Hello!\" to everyone.'\n",
+        "print(mix2)\n",
+        "\n",
+        "# Triple single quotes for multi-line string\n",
+        "multi_line1 = '''This is a string\n",
+        "written in triple single quotes.\n",
+        "It can go to the next line easily.'''\n",
+        "print(multi_line1)\n",
+        "\n",
+        "# Triple double quotes for multi-line string\n",
+        "multi_line2 = \"\"\"This is another string\n",
+        "written in triple double quotes.\n",
+        "Used for long texts or documentation.\"\"\"\n",
+        "print(multi_line2)\n"
+      ]
+    }
+  ]
+}
